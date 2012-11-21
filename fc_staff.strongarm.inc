@@ -116,7 +116,7 @@ function fc_staff_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_pictures';
-  $strongarm->value = '1';
+  $strongarm->value = 0;
   $export['user_pictures'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -144,7 +144,7 @@ function fc_staff_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_register';
-  $strongarm->value = 2;
+  $strongarm->value = '2';
   $export['user_register'] = $strongarm;
 
   return $export;

@@ -16,7 +16,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'admin_menu',
   );
@@ -27,7 +26,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'system',
   );
@@ -69,7 +67,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -80,7 +77,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'contextual',
   );
@@ -91,7 +87,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'dashboard',
   );
@@ -102,7 +97,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'draggableviews',
   );
@@ -113,7 +107,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'overlay',
   );
@@ -123,7 +116,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'access site in maintenance mode',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'system',
   );
@@ -133,7 +125,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'access site reports',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'system',
   );
@@ -161,7 +152,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'administer add another',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'addanother',
   );
@@ -171,7 +161,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'administer blocks',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'block',
   );
@@ -182,7 +171,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'comment',
   );
@@ -237,7 +225,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'administer menu',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'menu',
   );
@@ -418,7 +405,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'block IP addresses',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'system',
   );
@@ -457,7 +443,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'authenticated user',
-      2 => 'site owner',
     ),
     'module' => 'user',
   );
@@ -468,7 +453,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -478,7 +462,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'create assignment content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -489,7 +472,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -499,7 +481,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'create project content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -509,7 +490,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'create publication content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -519,7 +499,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'create url aliases',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'path',
   );
@@ -529,7 +508,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'customize shortcut links',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'shortcut',
   );
@@ -540,7 +518,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -550,7 +527,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete any assignment content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -561,7 +537,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -571,7 +546,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete any project content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -581,7 +555,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete any publication content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -592,7 +565,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -602,7 +574,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete own assignment content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -613,7 +584,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -623,7 +593,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete own project content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -633,7 +602,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete own publication content',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -643,7 +611,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete revisions',
     'roles' => array(
       0 => 'administrator',
-      1 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -654,7 +621,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'taxonomy',
   );
@@ -664,17 +630,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete terms in 3',
     'roles' => array(
       0 => 'content admin',
-      1 => 'site owner',
-    ),
-    'module' => 'taxonomy',
-  );
-
-  // Exported permission: delete terms in 4.
-  $permissions['delete terms in 4'] = array(
-    'name' => 'delete terms in 4',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
     ),
     'module' => 'taxonomy',
   );
@@ -693,8 +648,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'edit any article content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -702,10 +655,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: edit any assignment content.
   $permissions['edit any assignment content'] = array(
     'name' => 'edit any assignment content',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -714,8 +664,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'edit any page content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -723,30 +671,21 @@ function fc_staff_user_default_permissions() {
   // Exported permission: edit any project content.
   $permissions['edit any project content'] = array(
     'name' => 'edit any project content',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
   // Exported permission: edit any publication content.
   $permissions['edit any publication content'] = array(
     'name' => 'edit any publication content',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
   // Exported permission: edit any staff_profile profile.
   $permissions['edit any staff_profile profile'] = array(
     'name' => 'edit any staff_profile profile',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'profile2',
   );
 
@@ -755,8 +694,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'edit own article content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -764,10 +701,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: edit own assignment content.
   $permissions['edit own assignment content'] = array(
     'name' => 'edit own assignment content',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -776,8 +710,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'edit own comments',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'comment',
   );
@@ -787,8 +719,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'edit own page content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -796,20 +726,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: edit own project content.
   $permissions['edit own project content'] = array(
     'name' => 'edit own project content',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
   // Exported permission: edit own publication content.
   $permissions['edit own publication content'] = array(
     'name' => 'edit own publication content',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -817,9 +741,7 @@ function fc_staff_user_default_permissions() {
   $permissions['edit own staff_profile profile'] = array(
     'name' => 'edit own staff_profile profile',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'site owner',
-      2 => 'staff',
+      0 => 'staff',
     ),
     'module' => 'profile2',
   );
@@ -829,8 +751,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'edit terms in 1',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'taxonomy',
   );
@@ -838,20 +758,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: edit terms in 3.
   $permissions['edit terms in 3'] = array(
     'name' => 'edit terms in 3',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
-    'module' => 'taxonomy',
-  );
-
-  // Exported permission: edit terms in 4.
-  $permissions['edit terms in 4'] = array(
-    'name' => 'edit terms in 4',
-    'roles' => array(
-      0 => 'content admin',
-      1 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 
@@ -860,8 +767,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'flush caches',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'admin_menu',
   );
@@ -906,9 +811,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: publish any assignment content.
   $permissions['publish any assignment content'] = array(
     'name' => 'publish any assignment content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -933,18 +836,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: publish any project content.
   $permissions['publish any project content'] = array(
     'name' => 'publish any project content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
   // Exported permission: publish any publication content.
   $permissions['publish any publication content'] = array(
     'name' => 'publish any publication content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -953,8 +852,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'publish editable article content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'publishcontent',
   );
@@ -962,11 +859,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: publish editable assignment content.
   $permissions['publish editable assignment content'] = array(
     'name' => 'publish editable assignment content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -975,8 +868,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'publish editable page content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'publishcontent',
   );
@@ -984,22 +875,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: publish editable project content.
   $permissions['publish editable project content'] = array(
     'name' => 'publish editable project content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
   // Exported permission: publish editable publication content.
   $permissions['publish editable publication content'] = array(
     'name' => 'publish editable publication content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1015,9 +898,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: publish own assignment content.
   $permissions['publish own assignment content'] = array(
     'name' => 'publish own assignment content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1033,18 +914,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: publish own project content.
   $permissions['publish own project content'] = array(
     'name' => 'publish own project content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
   // Exported permission: publish own publication content.
   $permissions['publish own publication content'] = array(
     'name' => 'publish own publication content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1053,8 +930,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'revert revisions',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1066,7 +941,6 @@ function fc_staff_user_default_permissions() {
       0 => 'administrator',
       1 => 'anonymous user',
       2 => 'authenticated user',
-      3 => 'site owner',
     ),
     'module' => 'search',
   );
@@ -1111,9 +985,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: unpublish any assignment content.
   $permissions['unpublish any assignment content'] = array(
     'name' => 'unpublish any assignment content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1122,8 +994,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'unpublish any content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'publishcontent',
   );
@@ -1140,18 +1010,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: unpublish any project content.
   $permissions['unpublish any project content'] = array(
     'name' => 'unpublish any project content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
   // Exported permission: unpublish any publication content.
   $permissions['unpublish any publication content'] = array(
     'name' => 'unpublish any publication content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1167,9 +1033,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: unpublish editable assignment content.
   $permissions['unpublish editable assignment content'] = array(
     'name' => 'unpublish editable assignment content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1185,18 +1049,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: unpublish editable project content.
   $permissions['unpublish editable project content'] = array(
     'name' => 'unpublish editable project content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
   // Exported permission: unpublish editable publication content.
   $permissions['unpublish editable publication content'] = array(
     'name' => 'unpublish editable publication content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1212,9 +1072,7 @@ function fc_staff_user_default_permissions() {
   // Exported permission: unpublish own assignment content.
   $permissions['unpublish own assignment content'] = array(
     'name' => 'unpublish own assignment content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1230,18 +1088,14 @@ function fc_staff_user_default_permissions() {
   // Exported permission: unpublish own project content.
   $permissions['unpublish own project content'] = array(
     'name' => 'unpublish own project content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
   // Exported permission: unpublish own publication content.
   $permissions['unpublish own publication content'] = array(
     'name' => 'unpublish own publication content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'publishcontent',
   );
 
@@ -1250,8 +1104,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'use add another',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'addanother',
   );
@@ -1261,8 +1113,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'use advanced search',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'search',
   );
@@ -1283,8 +1133,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'use text format full_html',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'filter',
   );
@@ -1293,10 +1141,8 @@ function fc_staff_user_default_permissions() {
   $permissions['view any staff_profile profile'] = array(
     'name' => 'view any staff_profile profile',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'anonymous user',
-      2 => 'authenticated user',
-      3 => 'site owner',
+      0 => 'anonymous user',
+      1 => 'authenticated user',
     ),
     'module' => 'profile2',
   );
@@ -1304,64 +1150,42 @@ function fc_staff_user_default_permissions() {
   // Exported permission: view any unpublished article content.
   $permissions['view any unpublished article content'] = array(
     'name' => 'view any unpublished article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'view_unpublished',
   );
 
   // Exported permission: view any unpublished assignment content.
   $permissions['view any unpublished assignment content'] = array(
     'name' => 'view any unpublished assignment content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'view_unpublished',
   );
 
   // Exported permission: view any unpublished content.
   $permissions['view any unpublished content'] = array(
     'name' => 'view any unpublished content',
-    'roles' => array(
-      0 => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'view_unpublished',
   );
 
   // Exported permission: view any unpublished page content.
   $permissions['view any unpublished page content'] = array(
     'name' => 'view any unpublished page content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'view_unpublished',
   );
 
   // Exported permission: view any unpublished project content.
   $permissions['view any unpublished project content'] = array(
     'name' => 'view any unpublished project content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'view_unpublished',
   );
 
   // Exported permission: view any unpublished publication content.
   $permissions['view any unpublished publication content'] = array(
     'name' => 'view any unpublished publication content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
+    'roles' => array(),
     'module' => 'view_unpublished',
   );
 
@@ -1369,9 +1193,7 @@ function fc_staff_user_default_permissions() {
   $permissions['view own staff_profile profile'] = array(
     'name' => 'view own staff_profile profile',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'site owner',
-      2 => 'staff',
+      0 => 'staff',
     ),
     'module' => 'profile2',
   );
@@ -1381,8 +1203,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'view own unpublished content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1392,8 +1212,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'view revisions',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1403,8 +1221,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'view the administration theme',
     'roles' => array(
       0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'system',
   );
