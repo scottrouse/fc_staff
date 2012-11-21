@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Fire Center Staff feature.
+ */
+
+include_once 'fc_staff.features.inc';
