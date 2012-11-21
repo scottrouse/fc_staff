@@ -625,6 +625,13 @@ function fc_staff_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
+  // Exported permission: delete terms in 2.
+  $permissions['delete terms in 2'] = array(
+    'name' => 'delete terms in 2',
+    'roles' => array(),
+    'module' => 'taxonomy',
+  );
+
   // Exported permission: delete terms in 3.
   $permissions['delete terms in 3'] = array(
     'name' => 'delete terms in 3',
@@ -752,6 +759,13 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
     ),
+    'module' => 'taxonomy',
+  );
+
+  // Exported permission: edit terms in 2.
+  $permissions['edit terms in 2'] = array(
+    'name' => 'edit terms in 2',
+    'roles' => array(),
     'module' => 'taxonomy',
   );
 

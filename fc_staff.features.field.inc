@@ -447,9 +447,14 @@ Prof.',
         'module' => 'image',
         'settings' => array(
           'filefield_sources' => array(
-            'filefield_sources' => array(),
+            'filefield_sources' => array(
+              'attach' => 0,
+              'clipboard' => 0,
+              'reference' => 0,
+              'remote' => 'remote',
+            ),
             'source_attach' => array(
-              'absolute' => 0,
+              'absolute' => '0',
               'attach_mode' => 'move',
               'path' => 'file_attach',
             ),

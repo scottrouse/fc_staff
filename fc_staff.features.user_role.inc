@@ -13,24 +13,30 @@ function fc_staff_user_default_roles() {
   // Exported role: administrator.
   $roles['administrator'] = array(
     'name' => 'administrator',
-    'weight' => '5',
+    'weight' => '6',
   );
 
   // Exported role: content admin.
   $roles['content admin'] = array(
     'name' => 'content admin',
-    'weight' => '3',
+    'weight' => '4',
   );
 
   // Exported role: site owner.
   $roles['site owner'] = array(
     'name' => 'site owner',
-    'weight' => '4',
+    'weight' => '5',
   );
 
   // Exported role: staff.
   $roles['staff'] = array(
     'name' => 'staff',
+    'weight' => '3',
+  );
+
+  // Exported role: student.
+  $roles['student'] = array(
+    'name' => 'student',
     'weight' => '2',
   );
 

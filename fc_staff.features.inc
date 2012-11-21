@@ -25,7 +25,7 @@ function fc_staff_default_profile2_type() {
     "type" : "staff_profile",
     "label" : "Staff Profile",
     "weight" : "0",
-    "data" : { "registration" : 1 },
+    "data" : { "registration" : 0 },
     "rdf_mapping" : [  ]
   }');
   return $items;
