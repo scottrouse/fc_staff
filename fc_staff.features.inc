@@ -15,6 +15,13 @@ function fc_staff_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function fc_staff_views_api() {
+  return array("version" => "3.0");
+}
+
+/**
  * Implements hook_default_profile2_type().
  */
 function fc_staff_default_profile2_type() {
