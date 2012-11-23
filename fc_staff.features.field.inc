@@ -177,7 +177,7 @@ function fc_staff_field_default_fields() {
           ),
         ),
         'components' => array(
-          'credentials' => 0,
+          'credentials' => 'credentials',
           'family' => 'family',
           'generational' => 0,
           'given' => 'given',
@@ -353,7 +353,7 @@ Prof.',
       'description' => '<p>Enter your office phone number in the format XXX-XXX-XXXX here.</p>',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'inline',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
@@ -417,7 +417,7 @@ Prof.',
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'image',
           'settings' => array(
             'image_link' => '',
