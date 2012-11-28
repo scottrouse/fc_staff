@@ -469,17 +469,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: create article content.
-  $permissions['create article content'] = array(
-    'name' => 'create article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: create assignment content.
   $permissions['create assignment content'] = array(
     'name' => 'create assignment content',
@@ -540,17 +529,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: delete any article content.
-  $permissions['delete any article content'] = array(
-    'name' => 'delete any article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: delete any assignment content.
   $permissions['delete any assignment content'] = array(
     'name' => 'delete any assignment content',
@@ -584,17 +562,6 @@ function fc_staff_user_default_permissions() {
     'name' => 'delete any publication content',
     'roles' => array(
       0 => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete own article content.
-  $permissions['delete own article content'] = array(
-    'name' => 'delete own article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'node',
   );
@@ -686,17 +653,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
-  // Exported permission: edit any article content.
-  $permissions['edit any article content'] = array(
-    'name' => 'edit any article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: edit any assignment content.
   $permissions['edit any assignment content'] = array(
     'name' => 'edit any assignment content',
@@ -747,17 +703,6 @@ function fc_staff_user_default_permissions() {
       2 => 'site owner',
     ),
     'module' => 'profile2',
-  );
-
-  // Exported permission: edit own article content.
-  $permissions['edit own article content'] = array(
-    'name' => 'edit own article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
-    'module' => 'node',
   );
 
   // Exported permission: edit own assignment content.
@@ -896,16 +841,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'comment',
   );
 
-  // Exported permission: publish any article content.
-  $permissions['publish any article content'] = array(
-    'name' => 'publish any article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'site owner',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: publish any assignment content.
   $permissions['publish any assignment content'] = array(
     'name' => 'publish any assignment content',
@@ -943,17 +878,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: publish editable article content.
-  $permissions['publish editable article content'] = array(
-    'name' => 'publish editable article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: publish editable assignment content.
   $permissions['publish editable assignment content'] = array(
     'name' => 'publish editable assignment content',
@@ -980,17 +904,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'content admin',
       1 => 'site owner',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: publish own article content.
-  $permissions['publish own article content'] = array(
-    'name' => 'publish own article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'publishcontent',
   );
@@ -1076,16 +989,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'shortcut',
   );
 
-  // Exported permission: unpublish any article content.
-  $permissions['unpublish any article content'] = array(
-    'name' => 'unpublish any article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'site owner',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: unpublish any assignment content.
   $permissions['unpublish any assignment content'] = array(
     'name' => 'unpublish any assignment content',
@@ -1124,17 +1027,6 @@ function fc_staff_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: unpublish editable article content.
-  $permissions['unpublish editable article content'] = array(
-    'name' => 'unpublish editable article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: unpublish editable assignment content.
   $permissions['unpublish editable assignment content'] = array(
     'name' => 'unpublish editable assignment content',
@@ -1161,17 +1053,6 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'content admin',
       1 => 'site owner',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: unpublish own article content.
-  $permissions['unpublish own article content'] = array(
-    'name' => 'unpublish own article content',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'content admin',
-      2 => 'site owner',
     ),
     'module' => 'publishcontent',
   );
@@ -1261,13 +1142,6 @@ function fc_staff_user_default_permissions() {
       1 => 'authenticated user',
     ),
     'module' => 'profile2',
-  );
-
-  // Exported permission: view any unpublished article content.
-  $permissions['view any unpublished article content'] = array(
-    'name' => 'view any unpublished article content',
-    'roles' => array(),
-    'module' => 'view_unpublished',
   );
 
   // Exported permission: view any unpublished assignment content.
