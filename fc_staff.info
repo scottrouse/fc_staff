@@ -179,6 +179,7 @@ features[user_permission][] = view revisions
 features[user_permission][] = view the administration theme
 features[user_role][] = administrator
 features[user_role][] = content admin
+features[user_role][] = faculty
 features[user_role][] = site owner
 features[user_role][] = staff
 features[user_role][] = student
