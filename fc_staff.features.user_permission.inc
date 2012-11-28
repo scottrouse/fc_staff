@@ -80,9 +80,10 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
-      3 => 'staff',
-      4 => 'student',
+      2 => 'faculty',
+      3 => 'site owner',
+      4 => 'staff',
+      5 => 'student',
     ),
     'module' => 'contextual',
   );
@@ -817,9 +818,10 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
-      3 => 'staff',
-      4 => 'student',
+      2 => 'faculty',
+      3 => 'site owner',
+      4 => 'staff',
+      5 => 'student',
     ),
     'module' => 'profile2',
   );
@@ -1210,9 +1212,10 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
-      3 => 'staff',
-      4 => 'student',
+      2 => 'faculty',
+      3 => 'site owner',
+      4 => 'staff',
+      5 => 'student',
     ),
     'module' => 'addanother',
   );
@@ -1308,9 +1311,10 @@ function fc_staff_user_default_permissions() {
     'roles' => array(
       0 => 'administrator',
       1 => 'content admin',
-      2 => 'site owner',
-      3 => 'staff',
-      4 => 'student',
+      2 => 'faculty',
+      3 => 'site owner',
+      4 => 'staff',
+      5 => 'student',
     ),
     'module' => 'profile2',
   );

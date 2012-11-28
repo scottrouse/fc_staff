@@ -13,19 +13,25 @@ function fc_staff_user_default_roles() {
   // Exported role: administrator.
   $roles['administrator'] = array(
     'name' => 'administrator',
-    'weight' => '6',
+    'weight' => '7',
   );
 
   // Exported role: content admin.
   $roles['content admin'] = array(
     'name' => 'content admin',
+    'weight' => '5',
+  );
+
+  // Exported role: faculty.
+  $roles['faculty'] = array(
+    'name' => 'faculty',
     'weight' => '4',
   );
 
   // Exported role: site owner.
   $roles['site owner'] = array(
     'name' => 'site owner',
-    'weight' => '5',
+    'weight' => '6',
   );
 
   // Exported role: staff.
