@@ -12,6 +12,7 @@ dependencies[] = context
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = draggableviews
+dependencies[] = fc_basic_page
 dependencies[] = features
 dependencies[] = field_group
 dependencies[] = image
