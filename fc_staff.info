@@ -42,6 +42,7 @@ features[field][] = profile2-staff_profile-field_name
 features[field][] = profile2-staff_profile-field_phone
 features[field][] = profile2-staff_profile-field_photo
 features[field][] = profile2-staff_profile-field_title
+features[menu_links][] = menu-secondary-menu:node/11
 features[profile2_type][] = staff_profile
 features[user_permission][] = access administration menu
 features[user_permission][] = access administration pages
